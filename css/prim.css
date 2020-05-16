@@ -1,0 +1,46 @@
+body {
+	background-image: linear-gradient(to right, white 30%, DarkOliveGreen 80%, DarkSeaGreen );
+}
+
+#menu{
+	margin-top: 50px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+		display: block;
+		background-color: #8FBC8F;
+	}
+
+nav ul li {
+		color: white;
+		display: inline-block;
+		margin: 4px 8.5px 0 0;
+		position: relative;
+		padding: 0px 6px 2px 6px;
+}
+
+
+a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+		color: white;
+}
+
+li:visited{
+	background-color: black;
+}
+
+li:hover {
+	background-color: red;
+}
