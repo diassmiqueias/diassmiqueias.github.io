@@ -1,31 +1,44 @@
 body {
-	background-image: linear-gradient(to right, white 30%, DarkOliveGreen 80%, DarkSeaGreen );
+	background-image: linear-gradient(to right, white 20%, DarkOliveGreen);
 }
 
 #menu{
-	margin-top: 50px;
+	margin-top: 30px;
+}
+
+#sociais{
+	float: right;
+}
+
+#sociais li:hover{
+	background-color: transparent;
+	opacity: 40px;
 }
 
 nav {
-	text-align: initial;
+	
+	float: initial;
+	padding: 66px 0 0 0;
+
+}
+
+ul {
+	display: block;
+}
+
+ul li {
+		display: inline-block;
 }
 
 nav ul {
 		display: block;
-		background-color: #8FBC8F;
 	}
 
+
 nav ul li {
-		color: white;
 		display: inline-block;
 		position: relative;
 		padding: 0px 6px 2px 6px;
-}
-
-
-a{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: white;
 }
 
 a:link {
@@ -36,10 +49,21 @@ a:hover {
 		color: white;
 }
 
-li:visited{
-	background-color: black;
-}
 
 li:hover {
+	background-color: red;
+}
+
+.bg-light {
+	background-color: transparent !important;
+}
+
+.esq {
+	background-color: forestgreen !important;
+	float: left;
+	line-height: 5px;
+}
+
+.but {
 	background-color: red;
 }
